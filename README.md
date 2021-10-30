@@ -1,7 +1,7 @@
 # yolo_v3_rabbits
 This project contains my implementation of the YoloV3 algorithm.
 
-For this project, I used the VGG as a classifier, since it takes images of the size (224, 224, 3) and outputs tensors of the size (7, 7, 512). Since at some point it also outputs a tensors of sizes (14, 14, 256) and (28, 28, 128), which makes it an good candidate for YoloV3 model.
+For this project, I used the VGG as a classifier, since it takes images of the size (224, 224, 3) and outputs tensors of the size (7, 7, 512). At some point it also outputs a tensors of sizes (14, 14, 256) and (28, 28, 128), which makes it an good candidate for YoloV3 model.
 
 Some info about project files:
 - data.py contains a class for data preparations and decoding model predictions;
